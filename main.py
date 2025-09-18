@@ -1,6 +1,6 @@
 vowels = ["a","e","i","o","u"]
 
-myString = input("Type summat: ")
+myString = input("Type a sentence: ")
 for letter in myString:
   
   if letter.lower() in vowels:
